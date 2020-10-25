@@ -18,7 +18,7 @@ public class Page_Princiapl {
 	@FindBy(id = "lastName")
 	private WebElement last;
 
-	@FindBy(id = "username")
+	@FindBy(id = "usernam")
 	private WebElement correo;
 
 	@FindBy(name = "Passwd")
