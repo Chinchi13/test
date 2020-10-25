@@ -12,7 +12,6 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = { "src/test/resources/llenarCampos.feature" }, 
-tags= {"@Important"},
 glue = { "bindings/", "Utils.Hooks", "Archivos/" }
 , monochrome = true,
 plugin = {
