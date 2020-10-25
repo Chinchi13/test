@@ -28,7 +28,7 @@ public class Driver {
 		// driver = new InternetExplorerDriver();
 	
 
-		System.setProperty("webdriver.chrome.driver", "win32_chromedriver_77.0.3865.40/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Mirka\\Downloads\\as\\win32_chromedriver_77.0.3865.40\\chromedriver.exe");
 
 		DesiredCapabilities i = DesiredCapabilities.chrome (); 
 		i.setAcceptInsecureCerts(true);
